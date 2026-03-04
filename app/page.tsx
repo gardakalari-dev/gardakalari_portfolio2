@@ -123,28 +123,48 @@ export default function Portfolio() {
       
       {/* About Me Section */}
       <section className="flex flex-col md:flex-row gap-8 items-center md:items-start border-b border-[#cdb494] pb-12">
-        <img
+        <div className="flex flex-col items-center md:items-start">
+          <img
         src="https://raw.githubusercontent.com/gardakalari-dev/gardakalari_portfolio2/refs/heads/main/assets/img/ProfilePic2.png"
         alt="Garda Kalari"
         className="w-48 h-48 rounded-full border-4 border-[#cdb494] shadow-lg object-cover
            transition-transform duration-300 ease-in-out
            hover:scale-110 hover:shadow-[0_0_20px_rgba(205,180,148,0.75)]"
-        />
+          />
+          <div className="mt-4 flex gap-4">
+        <a
+          href="/GardaKalari_CV.pdf"
+          download
+          className="px-4 py-2 bg-[#957d5e] text-white rounded-md font-semibold
+             hover:bg-[#cdb494] transition-colors"
+        >
+          Download CV
+        </a>
+        <a
+          href="/GardaKalari_Portfolio.pdf"
+          download
+          className="px-4 py-2 bg-[#957d5e] text-white rounded-md font-semibold
+             hover:bg-[#cdb494] transition-colors"
+        >
+          Download Portfolio
+        </a>
+          </div>
+        </div>
         <div className="space-y-4 text-center md:text-left">
-        <h1 className="text-4xl md:text-5xl font-bold text-[#957d5e]">Garda Kalari Yustisiansyah</h1>
-        <h2 className="text-xl text-[#cdb494] font-bold">GIS Analyst & Geospatial Engineer</h2>
-        <p className="text-white leading-relaxed">
-          Geospatial and remote sensing specialist specializing in large-scale environmental monitoring and automated data pipelines. Passionate about leveraging geospatial technology to drive impactful environmental solutions.
-        </p>
-        <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm font-semibold">
-          <a href="https://github.com" className="text-[#957d5e] hover:text-[#cdb494]">GitHub</a>
-          <a href="mailto:ygardakalari@gmail.com" className="text-[#957d5e] hover:text-[#cdb494]">Email</a>
-          <a href="https://www.linkedin.com/in/garda-yustisiansyah/" className="text-[#957d5e] hover:text-[#cdb494]">LinkedIn</a>
-        </div>
-        <div className="mt-4 p-4 bg-[#cdb494] text-black border-l-4 border-[#957d5e] text-sm text-left rounded-xl">
-          <p><strong>Education:</strong> Bachelor's Degree in Cartography and Remote Sensing, Universitas Gadjah Mada (GPA: 3.67)</p>
-          <p className="mt-2"><strong>Certification:</strong> Basic Remote Pilot License Course (Indonesian Air Force)</p>
-        </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#957d5e]">Garda Kalari Yustisiansyah</h1>
+          <h2 className="text-xl text-[#cdb494] font-bold">GIS Analyst & Geospatial Engineer</h2>
+          <p className="text-white leading-relaxed">
+        Geospatial and remote sensing specialist specializing in large-scale environmental monitoring and automated data pipelines. Passionate about leveraging geospatial technology to drive impactful environmental solutions.
+          </p>
+          <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm font-semibold">
+        <a href="https://github.com" className="text-[#957d5e] hover:text-[#cdb494]">GitHub</a>
+        <a href="mailto:ygardakalari@gmail.com" className="text-[#957d5e] hover:text-[#cdb494]">Email</a>
+        <a href="https://www.linkedin.com/in/garda-yustisiansyah/" className="text-[#957d5e] hover:text-[#cdb494]">LinkedIn</a>
+          </div>
+          <div className="mt-4 p-4 bg-[#cdb494] text-black border-l-4 border-[#957d5e] text-sm text-left rounded-xl">
+        <p><strong>Education:</strong> Bachelor's Degree in Cartography and Remote Sensing, Universitas Gadjah Mada (GPA: 3.67)</p>
+        <p className="mt-2"><strong>Certification:</strong> Basic Remote Pilot License Course (Indonesian Air Force)</p>
+          </div>
         </div>
       </section>
 
