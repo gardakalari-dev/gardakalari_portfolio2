@@ -133,17 +133,17 @@ export default function Portfolio() {
           />
           <div className="mt-4 flex gap-4">
         <a
-          href="/GardaKalari_CV.pdf"
+          href="/CV_gardakalari.pdf"
           download
-          className="px-4 py-2 bg-[#957d5e] text-white rounded-md font-semibold
+          className="px-2 py-2 bg-[#957d5e] text-white rounded-md font-semibold
              hover:bg-[#cdb494] transition-colors"
         >
           Download CV
         </a>
         <a
-          href="/GardaKalari_Portfolio.pdf"
+          href="/Portfolio_gardakalari.pdf"
           download
-          className="px-4 py-2 bg-[#957d5e] text-white rounded-md font-semibold
+          className="px-2 py-2 bg-[#957d5e] text-white rounded-md font-semibold
              hover:bg-[#cdb494] transition-colors"
         >
           Download Portfolio
